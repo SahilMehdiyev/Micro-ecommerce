@@ -1,25 +1,37 @@
-# micro-ecommerce
-Learn how to build a Micro eCommerce Web App with Python and Serverless Postgres
-
-
+# Micro-eCommerce
+Build a modern Micro-eCommerce Web App using Python, Django, Poetry, and Serverless Postgres. This project demonstrates a professional approach to creating a scalable, minimalist e-commerce platform using contemporary tools and practices.
 
 To install packages and run various command shortcuts, we use [rav](https://github.com/jmitchel3/rav). Open `rav.yaml` to see the various commands available if you prefer to not use `rav`.
 
-_macOS/Linux Users_
+## Installation
+
+Install my-project poetry
+
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-venv/bin/python -m pip install pip pip-tools rav --upgrade
-venv/bin/rav run installs
-rav run freeze
+Clone the repository
+git clone https://github.com/SahilMehdiyev/Micro-ecommerce
+cd my-project
+
+Install dependencies
+poetry install
+
+Activate the virtual environment
+poetry shell
+
+make run_server
 ```
 
+## Acknowledgements
+Special thanks to:
 
-_Windows Users_
-```powershell
-c:\Python310\python.exe -m venv venv
-.\venv\Scripts\activate
-python -m pip install pip pip-tools rav --upgrade
-rav run win_installs
-rav run win_freeze
-```
+Poetry for modern dependency management.
+
+ - [Poetry](https://python-poetry.org/)
+ - [Neon](https://console.neon.tech/)
+ - [Stripe](https://stripe.com/)
+ - [TailwindCSS](https://tailwindcss.com/)
+
+
+## Support
+
+For support, email branchsahil@gmail.com or join our Slack channel.
